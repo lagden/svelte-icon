@@ -13,7 +13,13 @@ Svelte component
 ## Install
 
 ```
-$ yarn add @tadashi/svelte-icon@lagden/svelte-icon#1.0.0 -D
+$ yarn add @tadashi/svelte-icon@lagden/svelte-icon#{version}
+```
+
+or
+
+```
+$ npm i @tadashi/svelte-icon@lagden/svelte-icon#{version}
 ```
 
 
