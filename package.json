@@ -1,6 +1,6 @@
 {
   "name": "@tadashi/svelte-icon",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "repository": "github:lagden/svelte-icon",
   "description": "Svelte component",
   "keywords": [
@@ -32,22 +32,22 @@
     "test:watch": "npm test -- --watch"
   },
   "devDependencies": {
-    "@babel/core": "7.16.5",
-    "@babel/eslint-parser": "7.16.5",
-    "@babel/preset-env": "7.16.5",
+    "@babel/core": "7.17.4",
+    "@babel/eslint-parser": "7.17.0",
+    "@babel/preset-env": "7.16.11",
     "@testing-library/svelte": "3.0.3",
-    "babel-jest": "27.4.5",
-    "esbuild": "0.14.7",
-    "esbuild-svelte": "0.6.0",
-    "eslint": "8.5.0",
-    "eslint-config-xo": "0.39.0",
+    "babel-jest": "27.5.1",
+    "esbuild": "0.14.21",
+    "esbuild-svelte": "0.6.2",
+    "eslint": "8.9.0",
+    "eslint-config-xo": "0.40.0",
     "eslint-plugin-html": "6.2.0",
-    "eslint-plugin-svelte3": "3.2.1",
-    "eslint-plugin-unicorn": "39.0.0",
-    "jest": "27.4.5",
+    "eslint-plugin-svelte3": "3.4.0",
+    "eslint-plugin-unicorn": "40.1.0",
+    "jest": "27.5.1",
     "npm-run-all": "4.1.5",
-    "svelte": "3.44.3",
-    "svelte-jester": "2.1.5"
+    "svelte": "3.46.4",
+    "svelte-jester": "2.3.1"
   },
   "babel": {
     "presets": [

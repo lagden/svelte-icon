@@ -24,4 +24,15 @@ describe('Icon', () => {
 		})
 		expect(container).toMatchSnapshot()
 	})
+
+	test('should match snapshot props', () => {
+		const {container} = render(Icon, {
+			props: {
+				name: 'icon_name',
+				useBase: false,
+				useTransition: true,
+			},
+		})
+		expect(container).toMatchSnapshot()
+	})
 })
