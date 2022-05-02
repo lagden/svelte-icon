@@ -4,7 +4,7 @@ exports[`Icon should match snapshot default 1`] = `
 <body>
   <div>
     <svg
-      class="_tadashi_svelte_icon___base svelte-1g6tlhj"
+      class="_tadashi_svelte_icon___base svelte-ajqlh1"
     >
       <use
         xlink:href="#icon_name"
@@ -18,7 +18,7 @@ exports[`Icon should match snapshot props 1`] = `
 <body>
   <div>
     <svg
-      class="_tadashi_svelte_icon___base svelte-1g6tlhj"
+      class="_tadashi_svelte_icon___base svelte-ajqlh1"
       style="--tadashi_svelte_icon_fill: green;--tadashi_svelte_icon_width: 30px"
     >
       <use
@@ -33,7 +33,7 @@ exports[`Icon should match snapshot props 2`] = `
 <body>
   <div>
     <svg
-      class="_tadashi_svelte_icon___transition svelte-1g6tlhj"
+      class="_tadashi_svelte_icon___transition svelte-ajqlh1"
     >
       <use
         xlink:href="#icon_name"

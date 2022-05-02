@@ -13,12 +13,14 @@
 
 <style>
 	._tadashi_svelte_icon___base {
-		fill: var(--tadashi_svelte_icon_fill, initial);
-		width: var(--tadashi_svelte_icon_width, initial);
-		height: var(--tadashi_svelte_icon_height, initial);
+		fill: var(--tadashi_svelte_icon_fill, inherit);
+		width: var(--tadashi_svelte_icon_width, auto);
+		height: var(--tadashi_svelte_icon_height, var(--tadashi_svelte_icon_width, inherit));
+		display: var(--tadashi_svelte_icon_display, block);
+		flex: none;
 	}
 
 	._tadashi_svelte_icon___transition {
-		transition: var(--tadashi_svelte_icon_transition, fill .4s);
+		transition: var(--tadashi_svelte_icon_transition, fill .3s);
 	}
 </style>
